@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="Kodinger" name="author">
+    <meta content="width=device-width,initial-scale=1" name="viewport">
+    <title>My Login Page &mdash; Bootstrap 4 Login Page Snippet</title>
+    <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" rel="stylesheet">
+    <link href="css/my-login.css" rel="stylesheet" type="text/css">
+</head>
+<body class="my-login-page">
+<section class="h-100">
+    <div class="container h-100">
+        <div class="row justify-content-md-center align-items-center h-100">
+            <div class="card-wrapper">
+                <div class="brand">
+                    <img alt="bootstrap 4 login page" src="img/logo.jpg">
+                </div>
+                <div class="card fat">
+                    <div class="card-body">
+                        <h4 class="card-title">Reset Password</h4>
+                        <form class="my-login-validation" method="POST" novalidate="">
+                            <div class="form-group">
+                                <label for="new-password">New Password</label>
+                                <input autofocus class="form-control" data-eye id="new-password" name="password"
+                                       required type="password">
+                                <div class="invalid-feedback">
+                                    Password is required
+                                </div>
+                                <div class="form-text text-muted">
+                                    Make sure your password is strong and easy to remember
+                                </div>
+                            </div>
+
+                            <div class="form-group m-0">
+                                <button class="btn btn-primary btn-block" type="submit">
+                                    Reset Password
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="footer">
+                    Copyright &copy; 2017 &mdash; Your Company
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script crossorigin="anonymous" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="js/my-login.js"></script>
+</body>
+</html>
