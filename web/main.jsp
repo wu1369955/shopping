@@ -62,16 +62,16 @@
                     </a>
                     <ul class="nav nav-second-level">
                         <li>
-                            <a class="J_menuItem" href="/mall_cloth.goods">服装</a>
+                            <a class="J_menuItem" href="./mall_cloth.goods">服装</a>
                         </li>
                         <li>
-                            <a class="J_menuItem" href="/show_food.goods">食品</a>
+                            <a class="J_menuItem" href="./show_food.goods">食品</a>
                         </li>
                         <li>
-                            <a class="J_menuItem" href="/show_fruit.goods">水果</a>
+                            <a class="J_menuItem" href="./show_fruit.goods">水果</a>
                         </li>
                         <li>
-                            <a class="J_menuItem" href="/show_mobile.goods">手机</a>
+                            <a class="J_menuItem" href="./show_mobile.goods">手机</a>
                         </li>
 
                     </ul>
@@ -84,10 +84,10 @@
                     <a href="mailbox.html"><i class="fa fa-envelope"></i> <span class="nav-label">我的 </span><span
                             class="label label-warning pull-right">16</span></a>
                     <ul class="nav nav-second-level">
-                        <li><a class="J_menuItem" href="/show_mall.goods">商品表格</a>
+                        <li><a class="J_menuItem" href="./show_mall.goods">商品表格</a>
                         </li>
                         <%--                            <li><a class="J_menuItem" href="/">购物订单</a></li>--%>
-                        <li><a class="J_menuItem" href="/showOrders.order">历史记录</a>
+                        <li><a class="J_menuItem" href="./showOrders.order">历史记录</a>
                         </li>
                     </ul>
                 </li>
